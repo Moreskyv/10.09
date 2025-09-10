@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    width: 100%;
+    background-color: #8ACE00;
+}
+@font-face {
+    font-family: brat;
+    src: url(ofont.ru_Arial\ Narrow.ttf);
+}
+
+.txt {
+    font-family: brat;
+    font-size: 30px;
+}
+
+.btn-case{
+    padding-top: 50px;
+}
+
+.btn {
+    font-family: brat;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-size: 30px;
+}
